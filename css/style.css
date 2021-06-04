@@ -1,0 +1,30 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    display: none;
+}
+
+/* .promo */
+.promo {
+    height: 100vh;
+    background: url(../img/header-bg.jpg) center / cover no-repeat;
+}
+.promo::before {
+    
+}
